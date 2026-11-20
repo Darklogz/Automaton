@@ -1,0 +1,32 @@
+# Entorno virtual
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Carpetas locales (se conserva la carpeta con .gitkeep)
+temp/*
+!temp/.gitkeep
+logs/*
+!logs/.gitkeep
+models/*
+!models/.gitkeep
+
+# Secretos y configuración local
+.env
+
+# Audio y capturas generadas
+*.wav
+*.mp3
+*.onnx
+*.gguf
+
+# Editor y sistema
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,8 @@
+Uso diario
+Acción	Comando
+Encender	docker compose up -d
+Apagar (conserva el modelo)	docker compose down
+Ver logs	docker compose logs -f nucleo
+Reconstruir tras cambiar requirements.txt	docker compose up -d --build
+---
+Evita docker compose down -v, porque borra el volumen y tendrías que volver a descargar el modelo de 2 GB. Con -d los servicios quedan en segundo plano, y como tienen restart: unless-stopped, vuelven a levantar solos cuando abres Docker Desktop.

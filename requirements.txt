@@ -1,0 +1,22 @@
+# Mascota e interfaz
+PySide6
+Pillow
+
+# Control del sistema
+pyautogui
+pynput
+pyperclip
+psutil
+pywin32
+
+# Audio y visión
+sounddevice
+soundfile
+numpy
+webrtcvad-wheels
+mss
+rapidocr-onnxruntime
+
+# Comunicación y configuración
+httpx
+PyYAML

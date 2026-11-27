@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+python-multipart
+faster-whisper
+piper-tts
+ddgs
+beautifulsoup4
+httpx
+numpy
+PyYAML
